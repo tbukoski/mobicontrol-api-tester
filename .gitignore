@@ -1,0 +1,8 @@
+# Rust build output
+/target
+
+# Packaging output (build-windows.ps1 / CI staging)
+/dist
+
+# Note: Cargo.lock IS committed (this is a binary, not a library) so that
+# --locked CI builds are reproducible. Do not add it here.
